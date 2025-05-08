@@ -1,79 +1,121 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #0a0a23;
-  color: #fff;
+  background: #0a0a23;
+  color: white;
   text-align: center;
 }
 
-.hero {
+.top-banner {
   background: #11163a;
-  padding: 30px 10px;
+  padding: 15px;
+  position: relative;
 }
 
-.live-tag {
+.live-badge {
   background: red;
-  display: inline-block;
-  padding: 4px 10px;
-  margin-bottom: 10px;
-  font-weight: bold;
-  color: #fff;
-}
-
-.cta-button {
-  display: inline-block;
-  background: #4d79ff;
   color: white;
-  padding: 10px 20px;
-  margin-top: 10px;
-  text-decoration: none;
-  border-radius: 5px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
 }
 
-.giveaway-section {
-  margin: 20px 0;
+.giveaway-tag {
+  font-size: 18px;
+  margin-top: 30px;
+  color: orange;
+  font-weight: bold;
 }
 
 .ktm-img {
-  width: 250px;
+  width: 220px;
+  margin-top: 10px;
+}
+
+.hero {
+  background: #0d102a;
+  padding: 30px 10px;
+}
+
+.hero h1 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.click-button {
+  display: inline-block;
+  background: #4d79ff;
+  padding: 10px 25px;
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .features {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
-  margin: 30px auto;
-  max-width: 900px;
-}
-
-.feature-card {
-  background: #1b1f3a;
+  background: #191c2e;
   padding: 20px;
+  gap: 20px;
+}
+
+.feature {
+  background: #1f223a;
   border-radius: 8px;
-  cursor: pointer;
   width: 130px;
-  transition: background 0.3s;
+  padding: 15px;
+  cursor: pointer;
 }
 
-.feature-card:hover {
-  background: #3a3f65;
+.feature img {
+  width: 40px;
+  height: 40px;
 }
 
-.feature-card span {
+.feature span {
   display: block;
-  margin-top: 5px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .leaderboard {
-  background: #191c2e;
-  padding: 20px;
-  margin-top: 30px;
+  background: #10121e;
+  padding: 25px 10px;
+  margin-top: 10px;
+}
+
+.leaderboard h2 {
+  margin-bottom: 10px;
+}
+
+.leaderboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.leaderboard li {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.green {
+  color: #00ff90;
 }
 
 footer {
-  background: #0a0a23;
-  padding: 15px;
-  font-size: 0.9em;
-  border-top: 1px solid #333;
+  background: #0b0c15;
+  padding: 20px 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.socials img {
+  width: 30px;
+  margin: 0 10px;
 }
