@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0a0a23;
+  color: #fff;
+  text-align: center;
+}
+
+.hero {
+  background: #11163a;
+  padding: 30px 10px;
+}
+
+.live-tag {
+  background: red;
+  display: inline-block;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #4d79ff;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.giveaway-section {
+  margin: 20px 0;
+}
+
+.ktm-img {
+  width: 250px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px auto;
+  max-width: 900px;
+}
+
+.feature-card {
+  background: #1b1f3a;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 130px;
+  transition: background 0.3s;
+}
+
+.feature-card:hover {
+  background: #3a3f65;
+}
+
+.feature-card span {
+  display: block;
+  margin-top: 5px;
+}
+
+.leaderboard {
+  background: #191c2e;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+footer {
+  background: #0a0a23;
+  padding: 15px;
+  font-size: 0.9em;
+  border-top: 1px solid #333;
+}
