@@ -3,54 +3,64 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Free$10 Giveaway</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Free$10 - Giveaway</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="live-tag">🔴 LIVE</div>
-    <h1>WELCOME TO THE COMMUNITY</h1>
-    <p>USE CODE <strong>Brown</strong></p>
-    <a href="https://stake.bet/?offer=brown&c=brown" class="cta-button">CLICK HERE</a>
+  <header class="top-banner">
+    <div class="live-badge">🔴 LIVE</div>
+    <div class="giveaway-tag">🚨 IT'S TIME FOR GIVEAWAY</div>
+    <img src="assets/ktm-bike.png" alt="KTM Bike" class="ktm-img" /> <!-- TODO: Replace with KTM Duke image -->
   </header>
 
-  <section class="giveaway-section">
-    <h2>🚨 IT'S TIME FOR GIVEAWAY</h2>
-  <img src="ktm-logo.png" alt="KTM Duke 390 Giveaway" class="ktm-img" />
+  <section class="hero">
+    <h1>WELCOME TO THE COMMUNITY</h1>
+    <p>USE CODE <strong>Brown</strong></p>
+    <a href="https://example.com" class="click-button">CLICK HERE</a> <!-- TODO: Replace with your referral link -->
   </section>
 
   <section class="features">
-    <div class="feature-card" onclick="goTo('https://example.com/wager')">
-      💰 <span>WAGER COMPETITION</span>
+    <div class="feature" onclick="goTo('https://example.com/wager')">
+      <img src="assets/icon-dollar.png" alt="Wager" /> <!-- TODO: Replace with white dollar icon -->
+      <span>WAGER<br/>COMPETITION</span>
     </div>
-    <div class="feature-card" onclick="goTo('https://example.com/tips')">
-      ✨ <span>TIPS TRICKS</span>
+    <div class="feature" onclick="goTo('https://example.com/tips')">
+      <img src="assets/icon-tips.png" alt="Tips" /> <!-- TODO: Replace with magic wand icon -->
+      <span>TIPS<br/>TRICKS</span>
     </div>
-    <div class="feature-card" onclick="goTo('https://example.com/support')">
-      👤 <span>CUSTOMER SUPPORT</span>
+    <div class="feature" onclick="goTo('https://example.com/support')">
+      <img src="assets/icon-support.png" alt="Support" />
+      <span>CUSTOMER<br/>SUPPORT</span>
     </div>
-    <div class="feature-card" onclick="goTo('https://example.com/strategies')">
-      🎯 <span>STRATEGIES</span>
+    <div class="feature" onclick="goTo('https://example.com/strategies')">
+      <img src="assets/icon-target.png" alt="Strategies" />
+      <span>STRATEGIES</span>
     </div>
-    <div class="feature-card" onclick="goTo('https://example.com/giveaways')">
-      🎁 <span>GIVEAWAYS</span>
+    <div class="feature" onclick="goTo('https://example.com/giveaways')">
+      <img src="assets/icon-gift.png" alt="Giveaways" />
+      <span>GIVEAWAYS</span>
     </div>
-    <div class="feature-card" onclick="goTo('https://example.com/suggestions')">
-      😀 <span>SUGGESTIONS</span>
+    <div class="feature" onclick="goTo('https://example.com/suggestions')">
+      <img src="assets/icon-smile.png" alt="Suggestions" />
+      <span>SUGGESTION</span>
     </div>
   </section>
 
   <section class="leaderboard">
-    <h3>🏆 TOP WAGER</h3>
+    <h2>🏆 TOP WAGER</h2>
     <ul>
-      <li>1. d****t21 — $285,389</li>
-      <li>2. Ma****t — $201,285</li>
-      <li>3. Ad****9595 — $172,931</li>
+      <li><strong>1.</strong> d****t21 — <span class="green">$285,389</span></li>
+      <li><strong>2.</strong> Ma****t — <span class="green">$201,285</span></li>
+      <li><strong>3.</strong> Ad****9595 — <span class="green">$172,931</span></li>
     </ul>
   </section>
 
   <footer>
-    <p>💸 More followers = MORE GIVEAWAY!</p>
+    <p>More followers = MORE GIVEAWAY!</p>
+    <div class="socials">
+      <a href="#"><img src="assets/logo-youtube.png" alt="YouTube" /></a> <!-- TODO: Replace with real link -->
+      <a href="#"><img src="assets/logo-instagram.png" alt="Instagram" /></a>
+    </div>
   </footer>
 
   <script src="script.js"></script>
